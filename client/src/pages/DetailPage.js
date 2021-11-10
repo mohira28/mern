@@ -4,7 +4,7 @@ import {useHttp} from '../hooks/http.hook'
 import {AuthContext} from '../context/AuthContext'
 import {Loader} from '../components/Loader'
 import {LinkCard} from '../components/LinkCard'
-//copied
+
 export const DetailPage = () => {
   const {token} = useContext(AuthContext)
   const {request, loading} = useHttp()
