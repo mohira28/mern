@@ -1,5 +1,5 @@
 import React from 'react'
-//copied
+
 export const Loader = () => (
   <div style={{display: 'flex', justifyContent: 'center', paddingTop: '2rem'}}>
     <div className="preloader-wrapper active">
