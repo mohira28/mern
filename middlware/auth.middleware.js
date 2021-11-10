@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 const config = require('config')
-//copied
+
 module.exports = (req, res, next) => {
   if (req.method === 'OPTIONS') {
     return next()
