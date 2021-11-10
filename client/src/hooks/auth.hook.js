@@ -1,5 +1,5 @@
 import {useState, useCallback, useEffect} from 'react'
-//copied
+
 const storageName = 'userData'
 
 export const useAuth = () => {
