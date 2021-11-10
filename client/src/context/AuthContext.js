@@ -1,5 +1,5 @@
 import {createContext} from 'react'
-//copied
+
 function noop() {}
 
 export const AuthContext = createContext({
