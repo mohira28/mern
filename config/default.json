@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "mohira message",
+    "mongoUri": "mongodb://mohira:2002mohira2586@cluster0-shard-00-00.n06a6.mongodb.net:27017,cluster0-shard-00-01.n06a6.mongodb.net:27017,cluster0-shard-00-02.n06a6.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-uowxts-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
