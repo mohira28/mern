@@ -4,7 +4,7 @@ const shortid = require('shortid')
 const Link = require('../models/Link')
 const auth = require('../middlware/auth.middleware')
 const router = Router()
-//copied
+
 router.post('/generate', auth, async (req, res) => {
   try {
     const baseUrl = config.get('baseUrl')
