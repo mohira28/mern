@@ -3,7 +3,7 @@ import {useHttp} from '../hooks/http.hook'
 import {AuthContext} from '../context/AuthContext'
 import {Loader} from '../components/Loader'
 import {LinksList} from '../components/LinksList'
-//copied
+
 export const LinksPage = () => {
   const [links, setLinks] = useState([])
   const {loading, request} = useHttp()
